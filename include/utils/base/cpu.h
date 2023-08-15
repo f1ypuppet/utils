@@ -12,6 +12,7 @@
 
 #if defined(UTILS_CPU_X86_32) || defined(UTILS_CPU_X86_64)
 #   define UTILS_CPU_X86
+#   include "cpu_x86.h"
 #endif
 
 UTILS_NS_BEGIN
