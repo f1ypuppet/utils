@@ -1,6 +1,8 @@
 #pragma once
 
-#define UTILS_NS_BEGIN namespace utils {
+#define UTILS_BEGIN_ANONYMOUS_NAMESPACE namespace {
+#define UTILS_BEGIN_NAMESPACE(ns) namespace ns {
 
-#define _UTILS_NS_END }
-#define UTILS_NS_END _UTILS_NS_END
+#define UTILS_NS_END }
+#define UTILS_END_ANONYMOUS_NAMESPACE UTILS_NS_END
+#define UTILS_END_NAMESPACE(ns) UTILS_NS_END

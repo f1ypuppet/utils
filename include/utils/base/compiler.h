@@ -14,7 +14,7 @@
 #   define UTILS_COMPILER_MSC
 #endif
 
-UTILS_NS_BEGIN
+UTILS_BEGIN_NAMESPACE(utils)
 
 #if defined(UTILS_COMPILER_CLANG)
 inline constexpr bool with_compiler_clang = true;
@@ -34,4 +34,4 @@ inline constexpr bool with_compiler_msc = true;
 inline constexpr bool with_compiler_msc = false;
 #endif
 
-UTILS_NS_END
+UTILS_END_NAMESPACE(utils)

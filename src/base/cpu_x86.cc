@@ -1,7 +1,7 @@
 #include "base/cpu_x86.h"
 
-UTILS_NS_BEGIN
+UTILS_BEGIN_NAMESPACE(utils)
 
 
 
-UTILS_NS_END
+UTILS_END_NAMESPACE(utils)

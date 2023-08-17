@@ -15,7 +15,7 @@
 #   include "cpu_x86.h"
 #endif
 
-UTILS_NS_BEGIN
+UTILS_BEGIN_NAMESPACE(utils)
 
 #if defined(UTILS_CPU_X86_32)
 inline constexpr bool with_cpu_x86_32 = true;
@@ -35,4 +35,4 @@ inline constexpr bool with_cpu_x86 = true;
 inline constexpr bool with_cpu_x86 = false;
 #endif
 
-UTILS_NS_END
+UTILS_END_NAMESPACE(utils)

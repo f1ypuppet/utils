@@ -10,7 +10,7 @@
 #   define UTILS_OS_WINDOWS
 #endif
 
-UTILS_NS_BEGIN
+UTILS_BEGIN_NAMESPACE(utils)
 
 #if defined(UTILS_OS_LINUX)
 inline constexpr bool with_os_linux = true;
@@ -24,4 +24,4 @@ inline constexpr bool with_os_windows = true;
 inline constexpr bool with_os_windows = false;
 #endif
 
-UTILS_NS_END
+UTILS_END_NAMESPACE(utils)
